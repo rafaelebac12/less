@@ -1,0 +1,45 @@
+@import "mapas.less";
+@import  "variaveis.less";
+
+@breakpointmobile: ~"(max-width: 767px)";
+@breaKpointTablet: ~"(max_width: 768px) and (max-width: 1023)";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+body {
+    background-color: #a4bea7;
+    color: #ffffff;
+}
+li {
+    list-style: none;
+}
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media @breakpointmobile {
+        max-width: 70%;
+    }
+
+    @media @breaKpointTablet {
+        max-width: 80%;
+    }
+}
+
+.products {
+    background-color: @cordosprodutos;
+}
+
+.produc.item{
+    background-color: @cordositens;
+}

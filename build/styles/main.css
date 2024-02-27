@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #a4bea7;
+  color: #ffffff;
+}
+li {
+  list-style: none;
+}
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 70%;
+  }
+}
+@media (max_width: 768px) and (max-width: 1023) {
+  .container {
+    max-width: 80%;
+  }
+}
+.products {
+  background-color: #b71540;
+}
+.produc.item {
+  background-color: #1e3799;
+}
